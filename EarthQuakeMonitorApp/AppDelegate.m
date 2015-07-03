@@ -194,13 +194,13 @@
     // The request is complete and data has been received
     // You can parse the stuff in your instance variable now
 
-    NSError *error = nil;
 
-    NSDictionary *res = [NSJSONSerialization JSONObjectWithData:responseData options:NSJSONReadingMutableLeaves || NSJSONReadingMutableContainers error:&error];
-
-
+    NSError* error;
+    NSDictionary* res = [NSJSONSerialization JSONObjectWithData:responseData
+                                                         options:kNilOptions
+                                                           error:&error];
+    
     responseDictionary = [NSDictionary dictionaryWithDictionary:res];
-
     if(self.summaryRequestConnection == connection)
     {
         // NSLog(@"response: %@", responseDictionary);
