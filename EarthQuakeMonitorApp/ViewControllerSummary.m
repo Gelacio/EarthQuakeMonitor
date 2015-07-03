@@ -185,48 +185,48 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 -(UIColor*)getCellBGColor:(double) mag
 {
 
-    if(mag > 0 && mag <= 0.9)
+    if(mag > 0 && mag < 1.0)
     {
         return UIColorFromRGB(0x1B5E20);
     }
-    else if(mag > 1.0 && mag <= 1.9)
+    else if(mag >= 1.0 && mag < 2.0)
     {
         return UIColorFromRGB(0x2E7D32);
 
     }
-    else if(mag > 2.0 && mag <= 2.9)
+    else if(mag >= 2.0 && mag < 3.0)
     {
         return UIColorFromRGB(0x388E3C);
 
     }
-    else if(mag > 3.0 && mag <= 3.9)
+    else if(mag >= 3.0 && mag < 4.0)
     {
         return UIColorFromRGB(0x43A047);
 
     }
-    else if(mag > 4.0 && mag <= 4.9)
+    else if(mag >= 4.0 && mag < 5.0)
     {
         return UIColorFromRGB(0x4CAF50);
     }
-    else if(mag > 5.0 && mag <= 5.9)
+    else if(mag >= 5.0 && mag < 6.0)
     {
         return UIColorFromRGB(0xF44336);
     }
-    else if(mag > 6.0 && mag <= 6.9)
+    else if(mag >= 6.0 && mag < 7.0)
     {
         return UIColorFromRGB(0xE53935);
     }
-    else if(mag > 7.0 && mag <= 7.9)
+    else if(mag >= 7.0 && mag < 8.0)
     {
         return UIColorFromRGB(0xD32F2F);
 
     }
-    else if(mag > 8.0 && mag <= 8.9)
+    else if(mag >= 8.0 && mag < 9.0)
     {
         return UIColorFromRGB(0xC62828);
 
     }
-    else if(mag > 9.0 && mag <= 9.9)
+    else if(mag >= 9.0 && mag < 10.0)
     {
         return UIColorFromRGB(0xB71C1C);
 
