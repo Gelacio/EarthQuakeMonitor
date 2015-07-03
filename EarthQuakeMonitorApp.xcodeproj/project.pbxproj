@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0665C31B450AC40007FFA9 /* ViewControllerDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0665C21B450AC40007FFA9 /* ViewControllerDetails.m */; };
+		2C0FE7E81B47138600811F1E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0FE7E71B47138600811F1E /* Reachability.m */; };
 		2CAC0E7B1B425EE10070BEF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC0E7A1B425EE10070BEF9 /* main.m */; };
 		2CAC0E7E1B425EE10070BEF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC0E7D1B425EE10070BEF9 /* AppDelegate.m */; };
 		2CAC0E811B425EE10070BEF9 /* EarthQuakeMonitorApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC0E7F1B425EE10070BEF9 /* EarthQuakeMonitorApp.xcdatamodeld */; };
-		2CAC0E841B425EE10070BEF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC0E831B425EE10070BEF9 /* ViewController.m */; };
+		2CAC0E841B425EE10070BEF9 /* ViewControllerSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC0E831B425EE10070BEF9 /* ViewControllerSummary.m */; };
 		2CAC0E871B425EE10070BEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAC0E851B425EE10070BEF9 /* Main.storyboard */; };
 		2CAC0E891B425EE20070BEF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CAC0E881B425EE20070BEF9 /* Images.xcassets */; };
 		2CAC0E8C1B425EE20070BEF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CAC0E8A1B425EE20070BEF9 /* LaunchScreen.xib */; };
@@ -28,14 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C0665C11B450AC40007FFA9 /* ViewControllerDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDetails.h; sourceTree = "<group>"; };
+		2C0665C21B450AC40007FFA9 /* ViewControllerDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDetails.m; sourceTree = "<group>"; };
+		2C0FE7E71B47138600811F1E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		2C0FE7E91B47138C00811F1E /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		2CAC0E751B425EE10070BEF9 /* EarthQuakeMonitorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthQuakeMonitorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAC0E791B425EE10070BEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CAC0E7A1B425EE10070BEF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2CAC0E7C1B425EE10070BEF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2CAC0E7D1B425EE10070BEF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2CAC0E801B425EE10070BEF9 /* EarthQuakeMonitorApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EarthQuakeMonitorApp.xcdatamodel; sourceTree = "<group>"; };
-		2CAC0E821B425EE10070BEF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2CAC0E831B425EE10070BEF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CAC0E821B425EE10070BEF9 /* ViewControllerSummary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerSummary.h; sourceTree = "<group>"; };
+		2CAC0E831B425EE10070BEF9 /* ViewControllerSummary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSummary.m; sourceTree = "<group>"; };
 		2CAC0E861B425EE10070BEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CAC0E881B425EE20070BEF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2CAC0E8B1B425EE20070BEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -85,12 +91,16 @@
 			children = (
 				2CAC0E7C1B425EE10070BEF9 /* AppDelegate.h */,
 				2CAC0E7D1B425EE10070BEF9 /* AppDelegate.m */,
-				2CAC0E821B425EE10070BEF9 /* ViewController.h */,
-				2CAC0E831B425EE10070BEF9 /* ViewController.m */,
+				2C0665C11B450AC40007FFA9 /* ViewControllerDetails.h */,
+				2C0FE7E91B47138C00811F1E /* Reachability.h */,
+				2C0FE7E71B47138600811F1E /* Reachability.m */,
+				2C0665C21B450AC40007FFA9 /* ViewControllerDetails.m */,
+				2CAC0E821B425EE10070BEF9 /* ViewControllerSummary.h */,
+				2CAC0E831B425EE10070BEF9 /* ViewControllerSummary.m */,
 				2CAC0E851B425EE10070BEF9 /* Main.storyboard */,
+				2CAC0E7F1B425EE10070BEF9 /* EarthQuakeMonitorApp.xcdatamodeld */,
 				2CAC0E881B425EE20070BEF9 /* Images.xcassets */,
 				2CAC0E8A1B425EE20070BEF9 /* LaunchScreen.xib */,
-				2CAC0E7F1B425EE10070BEF9 /* EarthQuakeMonitorApp.xcdatamodeld */,
 				2CAC0E781B425EE10070BEF9 /* Supporting Files */,
 			);
 			path = EarthQuakeMonitorApp;
@@ -222,9 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0665C31B450AC40007FFA9 /* ViewControllerDetails.m in Sources */,
 				2CAC0E7E1B425EE10070BEF9 /* AppDelegate.m in Sources */,
 				2CAC0E811B425EE10070BEF9 /* EarthQuakeMonitorApp.xcdatamodeld in Sources */,
-				2CAC0E841B425EE10070BEF9 /* ViewController.m in Sources */,
+				2C0FE7E81B47138600811F1E /* Reachability.m in Sources */,
+				2CAC0E841B425EE10070BEF9 /* ViewControllerSummary.m in Sources */,
 				2CAC0E7B1B425EE10070BEF9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +432,7 @@
 				2CAC0E9D1B425EE20070BEF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CAC0E9E1B425EE20070BEF9 /* Build configuration list for PBXNativeTarget "EarthQuakeMonitorAppTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +441,7 @@
 				2CAC0EA01B425EE20070BEF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
