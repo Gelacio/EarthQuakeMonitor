@@ -22,7 +22,7 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
-
+// Conflict1
 @property(strong, nonatomic) NSMutableData  *responseData;
 @property(strong, nonatomic) NSDictionary *responseDictionary;
 
